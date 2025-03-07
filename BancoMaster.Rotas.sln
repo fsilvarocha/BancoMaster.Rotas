@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Presentation", "1- Presentation", "{FAE59A7E-276A-40C3-B162-FB1F6CF39FB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{0C256CFB-CBF2-4E7A-8ACC-FC19DB974AA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{0C056DDC-2D21-4AA4-80A0-3E4D2ABF0A1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{B80EEAB6-6817-4211-BA73-AA8CE3F70B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoMaster.Rotas.Domain", "src\BancoMaster.Rotas.Domain\BancoMaster.Rotas.Domain.csproj", "{02F050EE-3E94-478C-ABF1-8534A8E2D589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoMaster.Rotas.Application", "src\BancoMaster.Rotas.Application\BancoMaster.Rotas.Application.csproj", "{7A14D8E5-1A3F-44A0-A93F-0A6B54E24A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoMaster.Rotas.Infra", "src\BancoMaster.Rotas.Infra\BancoMaster.Rotas.Infra.csproj", "{6492636A-21C4-4531-AAB2-ECF58E53B819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoMaster.Rotas.API", "src\BancoMaster.Rotas.API\BancoMaster.Rotas.API.csproj", "{F2421DE9-B212-4D3A-A36D-C44B81AFD25F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Transfer", "4 - Transfer", "{99F0960F-A7F7-4841-911F-CDF0BDA43522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoMaster.Rotas.DataTransfer", "src\BancoMaster.Rotas.DataTransfer\BancoMaster.Rotas.DataTransfer.csproj", "{A8633457-EE9D-473A-BCE2-2584A3F657BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Testes", "6 - Testes", "{DAE06876-8817-4B6C-9002-87ACE134C23D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoMaster.Rotas.Testes", "BancoMaster.Rotas.Testes\BancoMaster.Rotas.Testes.csproj", "{2383C362-4950-474C-8C89-66AFA47E0E84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F050EE-3E94-478C-ABF1-8534A8E2D589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F050EE-3E94-478C-ABF1-8534A8E2D589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F050EE-3E94-478C-ABF1-8534A8E2D589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F050EE-3E94-478C-ABF1-8534A8E2D589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A14D8E5-1A3F-44A0-A93F-0A6B54E24A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A14D8E5-1A3F-44A0-A93F-0A6B54E24A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A14D8E5-1A3F-44A0-A93F-0A6B54E24A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A14D8E5-1A3F-44A0-A93F-0A6B54E24A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6492636A-21C4-4531-AAB2-ECF58E53B819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6492636A-21C4-4531-AAB2-ECF58E53B819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6492636A-21C4-4531-AAB2-ECF58E53B819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6492636A-21C4-4531-AAB2-ECF58E53B819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2421DE9-B212-4D3A-A36D-C44B81AFD25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2421DE9-B212-4D3A-A36D-C44B81AFD25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2421DE9-B212-4D3A-A36D-C44B81AFD25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2421DE9-B212-4D3A-A36D-C44B81AFD25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8633457-EE9D-473A-BCE2-2584A3F657BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8633457-EE9D-473A-BCE2-2584A3F657BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8633457-EE9D-473A-BCE2-2584A3F657BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8633457-EE9D-473A-BCE2-2584A3F657BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2383C362-4950-474C-8C89-66AFA47E0E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2383C362-4950-474C-8C89-66AFA47E0E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2383C362-4950-474C-8C89-66AFA47E0E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2383C362-4950-474C-8C89-66AFA47E0E84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02F050EE-3E94-478C-ABF1-8534A8E2D589} = {0C056DDC-2D21-4AA4-80A0-3E4D2ABF0A1E}
+		{7A14D8E5-1A3F-44A0-A93F-0A6B54E24A54} = {0C256CFB-CBF2-4E7A-8ACC-FC19DB974AA4}
+		{6492636A-21C4-4531-AAB2-ECF58E53B819} = {B80EEAB6-6817-4211-BA73-AA8CE3F70B57}
+		{F2421DE9-B212-4D3A-A36D-C44B81AFD25F} = {FAE59A7E-276A-40C3-B162-FB1F6CF39FB5}
+		{A8633457-EE9D-473A-BCE2-2584A3F657BC} = {99F0960F-A7F7-4841-911F-CDF0BDA43522}
+		{2383C362-4950-474C-8C89-66AFA47E0E84} = {DAE06876-8817-4B6C-9002-87ACE134C23D}
+	EndGlobalSection
+EndGlobal
