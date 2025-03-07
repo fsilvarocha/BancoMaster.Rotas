@@ -61,7 +61,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyCondo v1");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Banco Master v1");
         c.DocExpansion(DocExpansion.None);
     });
 }
